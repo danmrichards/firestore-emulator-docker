@@ -1,6 +1,7 @@
 # Google Cloud Firestore Emulator
 
-[![CircleCI](https://circleci.com/gh/mtlynch/firestore-emulator-docker.svg?style=svg)](https://circleci.com/gh/mtlynch/firestore-emulator-docker) [![Docker Pulls](https://img.shields.io/docker/pulls/mtlynch/firestore-emulator.svg?maxAge=604800)](https://hub.docker.com/r/mtlynch/firestore-emulator/) [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](LICENSE)
+[![Docker Pulls](https://img.shields.io/docker/pulls/danmrichards/firestore-emulator.svg?maxAge=604800)](https://hub.docker.com/r/danmrichards/firestore-emulator/) [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](LICENSE)
+
 
 A [Google Cloud Firestore Emulator](https://cloud.google.com/sdk/gcloud/reference/beta/emulators/firestore/) container image. The image creates a local, standalone Firestore emulator for testing Firestore-backed apps.
 
@@ -25,7 +26,7 @@ To run the emulator in a `docker-compose` configuration with your app, use the f
 version: "3.2"
 services:
   firestore_emulator:
-    image: mtlynch/firestore-emulator
+    image: danmrichards/firestore-emulator
     environment:
       - FIRESTORE_PROJECT_ID=dummy-project-id
       - PORT=8200
