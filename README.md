@@ -1,6 +1,6 @@
 # Google Cloud Firestore Emulator
 
-[![Docker Pulls](https://img.shields.io/docker/pulls/danmrichards/firestore-emulator.svg?maxAge=604800)](https://hub.docker.com/r/danmrichards/firestore-emulator/) [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](LICENSE)
+[![Docker Pulls](https://img.shields.io/docker/pulls/danmrichards/firestore-emulator-docker.svg?maxAge=604800)](https://hub.docker.com/r/danmrichards/firestore-emulator-docker) [![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](LICENSE)
 
 
 A [Google Cloud Firestore Emulator](https://cloud.google.com/sdk/gcloud/reference/beta/emulators/firestore/) container image. The image creates a local, standalone Firestore emulator for testing Firestore-backed apps.
