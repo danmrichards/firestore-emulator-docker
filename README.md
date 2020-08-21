@@ -15,7 +15,7 @@ docker run \
   --env "FIRESTORE_PROJECT_ID=dummy-project-id" \
   --env "PORT=8080" \
   --publish 8080:8080 \
-  mtlynch/firestore-emulator-docker
+  danmrichards/firestore-emulator-docker
 ```
 
 ## Example docker-compose configuration
@@ -26,7 +26,7 @@ To run the emulator in a `docker-compose` configuration with your app, use the f
 version: "3.2"
 services:
   firestore_emulator:
-    image: danmrichards/firestore-emulator
+    image: danmrichards/firestore-emulator-docker
     environment:
       - FIRESTORE_PROJECT_ID=dummy-project-id
       - PORT=8200
